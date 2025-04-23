@@ -1,0 +1,1 @@
+# monitoramento completo por categorias e horários

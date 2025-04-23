@@ -1,0 +1,1 @@
+# app.py principal com Flask + monitoramento integrado (conteúdo será incluído depois)

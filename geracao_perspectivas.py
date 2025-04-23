@@ -1,0 +1,1 @@
+# geração com IA + fallback por template, baseado no seu script
