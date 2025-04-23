@@ -1,0 +1,112 @@
+/* static/style.css */
+
+* { box-sizing: border-box; margin:0; padding:0; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header .logout {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #c00;
+}
+
+.category-form {
+  margin-bottom: 30px;
+}
+
+.category-form select,
+.category-form button {
+  padding: 6px 12px;
+  font-size: 1rem;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 16px;
+}
+
+.card h2 {
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+}
+
+.card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.perspectives {
+  display: flex;
+  gap: 10px;
+}
+
+.capetinha,
+.anjinho {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.capetinha {
+  background: #fdecea;
+  color: #a94442;
+}
+
+.anjinho {
+  background: #eaf6fd;
+  color: #31708f;
+}
+
+.trends {
+  margin-top: 40px;
+}
+
+.trends h2 {
+  margin-bottom: 10px;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.badge {
+  background: #fff;
+  padding: 6px 10px;
+  border-radius: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  font-size: 0.9rem;
+}
