@@ -1,1 +1,18 @@
-<!-- login.html simples -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Login – FC News</title>
+</head>
+<body>
+  <h1>Login FC News</h1>
+  {% if error %}
+    <p style="color:red;">{{ error }}</p>
+  {% endif %}
+  <form method="post">
+    <label>Usuário: <input name="user"></label><br>
+    <label>Senha:   <input type="password" name="pass"></label><br>
+    <button type="submit">Entrar</button>
+  </form>
+</body>
+</html>
