@@ -1,1 +1,6 @@
-flask\nrequests\nbeautifulsoup4\npillow\npytrends\npandas
+flask
+requests
+beautifulsoup4
+pillow
+pytrends
+pandas
